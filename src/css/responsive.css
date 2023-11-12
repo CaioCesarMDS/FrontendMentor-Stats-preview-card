@@ -1,0 +1,31 @@
+@media screen and (max-width: 1050px) {
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    img {
+        border-radius: 10px 10px 0 0;
+        max-width: 100%;
+    }
+
+    .all-text {
+        border-radius: 0 0 10px 10px;
+        max-width: 450px;
+        padding: 10px 15px;
+    }
+
+    .numbers {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #number {
+        padding: 28px 32px;
+    }
+}
+@media screen and (max-width: 608px) {
+    .all-text {
+        max-width: 100%;
+    }
+}
